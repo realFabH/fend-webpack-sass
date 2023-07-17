@@ -1,5 +1,5 @@
 import { checkForName } from './js/nameChecker'
-import { handleSubmit } from './js/formHandler'
+import { handleTheSubmit } from './js/showFabMessage'
 
 import './styles/resets.scss'
 import './styles/base.scss'
@@ -14,5 +14,5 @@ console.log("CHANGE!!");
 
 export {
     checkForName,
-    handleSubmit
+    handleTheSubmit
 }
